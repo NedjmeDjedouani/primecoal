@@ -1,30 +1,26 @@
+import Navbar from "./navbar";
+
 function App() {
 	return (
-		<div className="grid grid-cols-12 gap-24 bg-black h-screen">
-			<div className="col-span-2">
-				<img src="logo.png" alt="" className=" h-20 w-12" />
-			</div>
-			<nav className="col-start-3 col-end-10 mt-10 text-white">
-				<ul className="flex justify-between">
-					<li>
-						<a href="#Home">Home</a>
-					</li>
-					<li>
-						<a href="#News">News</a>
-					</li>
-					<li>
-						<a href="#Become">Become a Distributor</a>
-					</li>
-					<li>
-						<a href="#Contact">Contact Us</a>
-					</li>
-					<li>
-						<a href="#About">About Us</a>
-					</li>
-				</ul>
-			</nav>
-		</div>
-	);
+    <div>
+      <div
+        className="min-h-screen max-w flex flex-col bg-cover bg-no-repeat bg-center"
+        style={{
+          backgroundImage: `url(${"background.png"})`,
+        }}
+      >
+        <div className=" grid grid-cols-12 w-full gap-6  ">
+            <div className="  col-span-2 ">
+              <img src="logo.png" alt="" className=" h-[80px]" />
+            </div>
+            <nav className=" col-start-3 col-end-12  mt-10 text-white">
+              <Navbar></Navbar>
+            </nav>
+        
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default App;
