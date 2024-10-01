@@ -1,7 +1,7 @@
 
 export default function Navbar() {
     return (
-      <ul className="flex justify-between">
+      <ul className="flex justify-between w-full">
         <li>
           <a href="#Home">Home</a>
         </li>
