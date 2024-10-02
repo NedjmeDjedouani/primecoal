@@ -4,19 +4,19 @@ export default function Navbar() {
     return (
       <ul className="flex  w-full justify-between">
         <li>
-          <a href="#Home">Home</a>
+         <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="#News">News</a>
+          <Link to="News">News</Link>
         </li>
         <li>
           <Link to="becomedis">Become a distrubitor</Link>
         </li>
         <li>
-          <a href="#Contact">Contact Us</a>
+          <Link to="Contact">Contact Us</Link>
         </li>
         <li>
-          <a href="#About">About Us</a>
+          <Link to="About">About Us</Link>
         </li>
       </ul>
     );

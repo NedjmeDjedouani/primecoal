@@ -9,10 +9,11 @@ export default {
       'JosefinSans':['"Josefin Sans"','sans-serif']
     },
     extend: {
-      backgroundColor :{lightgray:"#1F1F1F"
+      backgroundColor :{lightgray:"#1F1F1F",orangy:"#EA5D42"}
+     
 }
     },
-  },
+  
   plugins: [],
 }
 

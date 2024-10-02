@@ -1,5 +1,6 @@
 import Navbar from "./navbar";
 
+
 const Home = () => {
   return (
     
@@ -25,7 +26,7 @@ const Home = () => {
               composition,
               <br /> which makes it an ideal choice <br /> for our users.
             </h1>
-            <button className="text-white bg-orange-300 px-8 py-2 rounded-lg uppercase font-bold hover:bg-orange-600">
+            <button className="text-white bg-orangy px-8 py-2 rounded-lg uppercase font-bold hover:bg-orange-600">
               Contact Us
             </button>
           </div>
