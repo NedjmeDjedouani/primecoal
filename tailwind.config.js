@@ -9,7 +9,8 @@ export default {
       'JosefinSans':['"Josefin Sans"','sans-serif']
     },
     extend: {
-      backgroundColor :{lightgray:"#1F1F1F",orangy:"#EA5D42"}
+      backgroundColor :{lightgray:"#1F1F1F",orangy:"#EA5D42"},
+      colors :{orangy:"#EA5D42"},
      
 }
     },
