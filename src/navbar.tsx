@@ -1,21 +1,22 @@
+import { Link } from "react-router-dom"
 
 export default function Navbar() {
     return (
-      <ul className="flex justify-between w-full">
+      <ul className="flex  w-full justify-between">
         <li>
-          <a href="#Home">Home</a>
+         <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="#News">News</a>
+          <Link to="News">News</Link>
         </li>
         <li>
-          <a href="#Become">Become a Distributor</a>
+          <Link to="becomedis">Become a distrubitor</Link>
         </li>
         <li>
-          <a href="#Contact">Contact Us</a>
+          <Link to="Contact">Contact Us</Link>
         </li>
         <li>
-          <a href="#About">About Us</a>
+          <Link to="About">About Us</Link>
         </li>
       </ul>
     );

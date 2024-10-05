@@ -8,8 +8,12 @@ export default {
     fontFamily:{
       'JosefinSans':['"Josefin Sans"','sans-serif']
     },
-    extend: {},
-  },
+    extend: {
+      backgroundColor :{lightgray:"#1F1F1F",orangy:"#EA5D42"}
+     
+}
+    },
+  
   plugins: [],
 }
 
