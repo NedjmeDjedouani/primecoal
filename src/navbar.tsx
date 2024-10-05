@@ -7,16 +7,16 @@ export default function Navbar() {
          <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="News">News</Link>
+          <Link to="/news">News</Link>
         </li>
         <li>
-          <Link to="becomedis">Become a distrubitor</Link>
+          <Link to="/becomedis">Become a distrubitor</Link>
         </li>
         <li>
           <Link to="Contact">Contact Us</Link>
         </li>
         <li>
-          <Link to="About">About Us</Link>
+          <Link to="/About">About Us</Link>
         </li>
       </ul>
     );
