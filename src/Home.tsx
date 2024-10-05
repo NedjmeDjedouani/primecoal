@@ -39,7 +39,7 @@ const Home = () => {
           </div>
           <div className="grid grid-cols-12 h-[600px] gap-6  px-4 md:px-20">
             <div
-              className="col-span-4 bg-cover bg-no-repeat bg-bottom text-white flex flex-col p-7 space-y-5 font-light text-sm leading-loose  "
+              className="col-span-4 bg-cover bg-no-repeat bg-bottom text-white flex flex-col p-4 space-y-5 font-light text-sm leading-loose  "
               style={{
                 backgroundImage: `url("main-card.png")`,
               }}
@@ -57,7 +57,7 @@ const Home = () => {
             </div>
             <div className=" col-span-4  flex flex-col space-y-5">
               <div className=" bg-lightgray rounded-lg basis-full ">
-                <div className=" text-white space-y-5 p-7 font-light text-sm leading-loose">
+                <div className=" text-white space-y-5 p-4 font-light text-sm leading-loose">
                   <p>
                     made exclusively from natural materials. This ensures purity
                     and safety of use, which is especially important for
@@ -72,7 +72,7 @@ const Home = () => {
                 </div>
               </div>
               <div className=" bg-lightgray rounded-lg basis-full ">
-                <div className=" text-white space-y-5 p-7  font-light text-sm leading-loose">
+                <div className=" text-white space-y-5 p-4  font-light text-sm leading-loose">
                   <p>Competition-grade charcoal for BBQ enthusiast</p>
                   <p>
                     Low smoke output: Highlight how the charcoal produces
@@ -87,7 +87,7 @@ const Home = () => {
 
             <div className=" col-span-4  flex flex-col space-y-5">
               <div className=" bg-lightgray rounded-lg basis-full  ">
-                <div className=" text-white space-y-5 p-7 font-light text-sm leading-loose">
+                <div className=" text-white space-y-5 p-4 font-light text-sm leading-loose">
                   <p>
                     Variety of charcoal types: Offering a range of options to
                     suit different grilling needs
@@ -101,7 +101,7 @@ const Home = () => {
                 </div>
               </div>
               <div className=" bg-lightgray rounded-lg basis-full ">
-                <div className=" text-white space-y-5 p-7  font-light text-sm leading-loose">
+                <div className=" text-white space-y-5 p-4  font-light text-sm leading-loose">
                   <p>
                     Competitive pricing: Highlight any bulk discounts,
                     subscription services, or special offers that provide value
