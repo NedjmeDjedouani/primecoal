@@ -39,7 +39,7 @@ const News = () => {
                 </p>
               </div>
               <div className="absolute text-white bottom-[5px] right-5 ">
-                <span className="text-sm">04.10.2024</span>
+                <span className="text-sm">20.09.2024</span>
               </div>
             </div>
             <div className=" flex space-x-5 bg-black p-6 rounded-lg relative ">
@@ -54,7 +54,7 @@ const News = () => {
                 </p>
               </div>
               <div className="absolute text-white bottom-[5px] right-5 ">
-                <span className="text-sm">04.10.2024</span>
+                <span className="text-sm">30.09.2024</span>
               </div>
             </div>
             <div className=" flex space-x-5 bg-black p-6 rounded-lg relative ">
@@ -83,7 +83,7 @@ const News = () => {
                 </p>
               </div>
               <div className="absolute text-white bottom-[5px] right-5 ">
-                <span className="text-sm">04.10.2024</span>
+                <span className="text-sm">06.10.2024</span>
               </div>
             </div>
           </div>
