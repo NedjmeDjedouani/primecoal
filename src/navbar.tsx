@@ -4,7 +4,7 @@ export default function Navbar() {
     return (
       <ul className="flex  w-full justify-between">
         <li>
-         <Link to="/">Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
           <Link to="/news">News</Link>
@@ -13,7 +13,7 @@ export default function Navbar() {
           <Link to="/becomedis">Become a distrubitor</Link>
         </li>
         <li>
-          <Link to="Contact">Contact Us</Link>
+          <Link to="mailto:primecoal@info.com">Contact Us</Link>
         </li>
         <li>
           <Link to="/About">About Us</Link>

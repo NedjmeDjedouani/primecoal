@@ -55,39 +55,38 @@ const BecomeDistrubutorPage = () => {
       </section>
       <section className="grid grid-cols-12">
         <div className="bg-lightgray mt-32 col-start-2 col-end-12 flex px-[23px] py-[25px] rounded-lg">
-          <p className="text-white flex w-4/12">
-            Become Our Distributor We invite you to become a part of our team
-            and join our successful business of selling premium charcoal If you
-            want to expand your product range and offer your customers the
+          <p className="text-white flex w-4/12 mt-5">
+            Become Our Distributor <br /> We invite you to become a part of our
+            team and join our successful business of selling premium charcoal If
+            you want to expand your product range and offer your customers the
             highest quality products, this is the offer for you!
           </p>
-
-          <div className="space-y-8 px-10 w-8/12">
-            <div className=" flex  w-full space-x-20 ">
+          
+          <div className="space-y-8 px-10 w-6/12  text-white outline-none">
+            <div className="  flex  space-x-20 ">
               <input
-                className=" bg-transparent border border-orangy hover:bg-orangy focus:border-orangy rounded-lg p-2  w-4/12"
+                className=" bg-transparent hover:border hover:border-orangy focus:bg-orangy outline-none rounded-lg p-2 w-1/2 "
                 name="email"
                 placeholder="Email"
                 type="email"
               />
 
               <input
-                className="bg-transparent border border-orangy hover:bg-orangy focus:border-orangy rounded-lg p-2  w-4/12"
-                name="name"
+                className="bg-transparent hover:border hover:border-orangy focus:bg-orangy outline-none rounded-lg p-2 w-1/2"
                 placeholder="Name"
                 type="text"
               />
             </div>
             <div className=" flex  space-x-20">
               <input
-                className="bg-transparent border border-orangy hover:bg-orangy focus:border-orangy rounded-lg p-2  w-4/12"
+                className="bg-transparent hover:border hover:border-orangy focus:bg-orangy outline-none rounded-lg p-2 w-1/2"
                 name="city"
                 placeholder="City"
                 type="text"
               />
 
               <input
-                className="bg-transparent border border-orangy hover:bg-orangy focus:border-orangy rounded-lg p-2  w-4/12"
+                className="bg-transparent hover:border hover:border-orangy focus:bg-orangy outline-none rounded-lg p-2 w-1/2"
                 name="Company"
                 placeholder="Company"
                 type="text"
@@ -95,14 +94,14 @@ const BecomeDistrubutorPage = () => {
             </div>
             <div className=" flex space-x-20 ">
               <input
-                className="bg-transparent border border-orangy hover:bg-orangy focus:border-orangy rounded-lg p-2  w-4/12 "
+                className="bg-transparent hover:border hover:border-orangy focus:bg-orangy outline-none rounded-lg p-2 w-1/2 "
                 name="Phone Number"
                 placeholder="Phone Number"
                 type="tel"
               />
 
               <input
-                className="bg-transparent border border-orangy hover:bg-orangy focus:border-orangy rounded-lg p-2  w-4/12"
+                className="bg-transparent hover:border hover:border-orangy focus:bg-orangy outline-none rounded-lg p-2 w-1/2 "
                 name="quantity"
                 placeholder="Quantity per month"
                 type="number"
@@ -110,7 +109,6 @@ const BecomeDistrubutorPage = () => {
             </div>
             <div className="flex justify-center w-full">
               <button className=" bg-orangy rounded-lg text-white font-bold px-4 py-2 uppercase  ">
-                {" "}
                 contact us
               </button>
             </div>
