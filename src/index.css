@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 input:-webkit-autofill,
 input:-webkit-autofill:enabled,
 input:-webkit-autofill:hover,
@@ -14,8 +13,8 @@ select:-webkit-autofill,
 select:-webkit-autofill:enabled,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
--webkit-text-fill-color: #fff;
--webkit-box-shadow: 0 0 0px 1000px #EA5D42 inset;
-box-shadow: 0 0 0px 1000px #EA5D42 inset;
-background-color: #EA5D42;
+    -webkit-text-fill-color: #fff;
+    -webkit-box-shadow: 0 0 0px 1000px #EA5D42 inset;
+    box-shadow: 0 0 0px 1000px #EA5D42 inset;
+    background-color: #EA5D42;
 }
