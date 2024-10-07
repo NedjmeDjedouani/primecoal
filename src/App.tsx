@@ -14,7 +14,9 @@ function App() {
         <Route Component={News} path="/news"></Route>
         <Route Component={About} path="/About"></Route>
       </Routes>
+        
     </BrowserRouter>
+
   );
   
 }

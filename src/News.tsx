@@ -1,6 +1,5 @@
-import React from "react";
-import Navbar from "./Navbar";
 import { Link } from "react-router-dom";
+import Navbar from "./navbar";
 const News = () => {
   return (
     <div className=" bg-black min-h-screen ">

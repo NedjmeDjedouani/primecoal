@@ -1,4 +1,4 @@
-import Navbar from "./Navbar";
+import Navbar from "./navbar";
 
 
 const Home = () => {
@@ -12,13 +12,14 @@ const Home = () => {
             backgroundImage: `url(background.png)`,
           }}
         >
-          <div className="grid grid-cols-12 w-full gap-6 mt-4">
+          <div className="grid grid-cols-12 w-full gap-6 mt-4" >
             <div className=" col-span-2 flex items-center justify-start">
               <img src="logo.png" alt="Logo" className="h-20" />
             </div>
-            <nav className=" flex items-center  col-start-3 col-end-12 text-white">
-              <Navbar />
+            <nav className=" flex items-center  col-start-3 col-end-12 text-white max-md:hidden ">
+              <Navbar  />
             </nav>
+            <nav className="flex "></nav>
           </div>
           <div className="flex flex-col flex-grow justify-center items-center text-center mt-10">
             <h1 className="text-white text-2xl mb-4 font-extrabold uppercase">
