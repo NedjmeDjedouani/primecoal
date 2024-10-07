@@ -1,11 +1,8 @@
-
 import { Link } from "react-router-dom";
-import Navbar from "./Navbar";
+import Header from "./components/Header";
 
 const BecomeDistrubutorPage = () => {
   return (
-  
-
     <div className=" bg-black min-h-screen ">
       <div
         className="bg-cover bg-no-repeat bg"
@@ -13,15 +10,7 @@ const BecomeDistrubutorPage = () => {
           backgroundImage: `url(header.png)`,
         }}
       >
-        <div className="grid grid-cols-12 w-full gap-6 px-4 md:px-20 ">
-          <div className=" col-span-2 flex items-center justify-start">
-            <img src="logo.png" alt="Logo" className="h-20" />
-          </div>
-
-          <nav className=" flex items-center  col-start-3 col-end-12 text-white">
-            <Navbar />
-          </nav>
-        </div>
+        <Header />
       </div>
       <section>
         <div className=" grid grid-cols-12 w-full gap-6 px-4 md:px-20 mt-40  ">
@@ -63,60 +52,56 @@ const BecomeDistrubutorPage = () => {
             you want to expand your product range and offer your customers the
             highest quality products, this is the offer for you!
           </p>
-          
-          <div className="space-y-8 px-10 w-6/12  text-white outline-none">
-            <div className="  flex  space-x-20 ">
-              <input
-                className=" bg-transparent hover:border hover:border-orangy focus:bg-orangy outline-none rounded-lg p-2 w-1/2 "
-                name="email"
-                placeholder="Email"
-                type="email"
-              />
 
-              <input
-                className="bg-transparent hover:border hover:border-orangy focus:bg-orangy outline-none rounded-lg p-2 w-1/2"
-                placeholder="Name"
-                type="text"
-              />
-            </div>
-            <div className=" flex space-x-20">
-              <input
-                className="bg-transparent hover:border hover:border-orangy focus:bg-orangy outline-none rounded-lg p-2 w-1/2"
-                name="city"
-                placeholder="City"
-                type="text"
-              />
+          <div className="flex flex-col  w-8/12 space-y-5">
+            <div className="space-y-8 px-10 text-white outline-none w-10/12">
+              <div className="  flex  space-x-20 ">
+                <input
+                  className="input-style"
+                  name="email"
+                  placeholder="Email"
+                  type="email"
+                />
 
-              <input
-                className="bg-transparent hover:border hover:border-orangy focus:bg-orangy outline-none rounded-lg p-2 w-1/2"
-                name="Company"
-                placeholder="Company"
-                type="text"
-              />
-            </div>
-            <div className="flex space-x-20 ">
-              <input
-                className="bg-transparent hover:border hover:border-orangy focus:bg-orangy outline-none rounded-lg p-2 w-1/2 "
-                name="Phone Number"
-                placeholder="Phone Number"
-                type="tel"
-              />
+                <input className="input-style" placeholder="Name" type="text" />
+              </div>
+              <div className=" flex space-x-20">
+                <input
+                  className="input-style"
+                  name="city"
+                  placeholder="City"
+                  type="text"
+                />
 
-              <input
-                className="bg-transparent hover:border hover:border-orangy focus:bg-orangy outline-none rounded-lg p-2 w-1/2 "
-                name="quantity"
-                placeholder="Quantity per month"
-                type="number"
-              />
+                <input
+                  className="input-style"
+                  name="Company"
+                  placeholder="Company"
+                  type="text"
+                />
+              </div>
+              <div className="flex space-x-20 ">
+                <input
+                  className="input-style"
+                  name="Phone Number"
+                  placeholder="Phone Number"
+                  type="tel"
+                />
+
+                <input
+                  className="input-style"
+                  name="quantity"
+                  placeholder="Quantity per month"
+                  type="number"
+                />
+              </div>
             </div>
-            </div>
-            <div className="flex justify-center w-full">
+            <div className="flex justify-end w-full">
               <button className=" bg-orangy rounded-lg text-white font-bold px-4 py-2 uppercase  ">
                 contact us
               </button>
             </div>
-            </div>
-            </div>
+          </div>
         </div>
       </section>
       <footer className="flex w-full gap-6 px-4 md:px-20 mt-32 justify-between pb-10">
@@ -135,20 +120,18 @@ const BecomeDistrubutorPage = () => {
         </div>
         <div className="flex items-center space-x-3 justify-between">
           <Link to="https://www.facebook.com/?locale=fr_FR">
-            <img src="Fb.png" alt="" />
+            <img src="Fb.png" alt="Facebook Link" />
           </Link>
           <Link to="https://www.instagram.com/#:~:text=Create%20an%20account%20or%20log%20in%20to%20Instagram">
-            <img src="Insta.png" alt="" />
+            <img src="Insta.png" alt="Instagram Link" />
           </Link>
           <Link to="https://web.whatsapp.com/#:~:text=Quickly%20send%20and%20receive%20WhatsApp">
-            <img src="tel.png" alt="" />
+            <img src="tel.png" alt="Whatsapp Link" />
           </Link>
         </div>
       </footer>
     </div>
-
   );
-}
+};
 
-export default BecomeDistrubutorPage
-
+export default BecomeDistrubutorPage;

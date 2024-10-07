@@ -9,7 +9,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route Component={Home} path="/" /> {/* 👈 Renders at /app/ */}
+        <Route Component={Home} path="/" /> 
         <Route Component={BecomeDistrubutorPage} path="/becomedis"/>
         <Route Component={News} path="/news"></Route>
         <Route Component={About} path="/About"></Route>

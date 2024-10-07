@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Navbar from "./Navbar";
+import Header from "./components/Header";
 const News = () => {
   return (
     <div className=" bg-black min-h-screen ">
@@ -9,17 +9,9 @@ const News = () => {
           backgroundImage: `url(header.png)`,
         }}
       >
-        <div className="grid grid-cols-12 w-full gap-6 px-4 md:px-20 ">
-          <div className=" col-span-2 flex items-center justify-start">
-            <img src="logo.png" alt="Logo" className="h-20" />
-          </div>
-
-          <nav className=" flex items-center  col-start-3 col-end-12 text-white">
-            <Navbar />
-          </nav>
-        </div>
+    <Header/>
       </div>
-      -{" "}
+    
       <div className="flex flex-col items-center ">
         <span className="text-orangy text-center mt-20 text-3xl font-bold uppercase">
           News
