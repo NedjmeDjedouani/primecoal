@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 export default function Navbar() {
     return (
-       <ul className="flex  w-full justify-between">
+       <ul className="flex  w-full justify-between  max-md:hidden ">
         <li>
          <Link to="/">Home</Link>
         </li>
@@ -10,7 +10,7 @@ export default function Navbar() {
           <Link to="/news">News</Link>
         </li>
         <li>
-          <Link to="/becomedis">Become a distributor</Link>
+          <Link to="/become-distributor">Become a distributor</Link>
         </li>
         <li>
           <Link to="mailto:primecoal@info.com">

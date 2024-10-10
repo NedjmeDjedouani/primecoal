@@ -1,15 +1,34 @@
+import { Link } from 'react-router-dom'
 import Navbar from '../Navbar'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons/faBars'
+import { useState } from 'react'
+import Sidebar from './Sidebar'
 
 const Header = () => {
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false)
+
+  const toggleSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen)
+  }
   return (
     <header className="grid grid-cols-12 w-full gap-6 px-4 md:px-20 ">
     <div className=" col-span-2 flex items-center justify-start">
-      <img src="logo.png" alt="Logo" className="h-20" />
+      <Link to={"/"}>
+   <img src="logo.png" alt="Logo" className="h-20" />
+   </Link>
+    
     </div>
 
     <nav className=" flex items-center  col-start-3 col-end-12 text-white">
-      <Navbar />
+      <Navbar  />
+      <div className='w-full flex justify-end md:hidden' >
+      <FontAwesomeIcon size='lg'  icon={faBars} color='white' onClick={()=>toggleSidebar()} />
+      </div>
     </nav>
+    <Sidebar isOpen={isSidebarOpen} onClose={function (): void {
+       setIsSidebarOpen(false)
+    }} />
   </header>
   )
 }

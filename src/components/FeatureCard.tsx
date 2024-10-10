@@ -1,7 +1,7 @@
 
 const FeatureCard = (props:{paragraphs: string[]}) => {
   return (
-    <div className=" bg-lightgray rounded-lg basis-full ">
+    <div className=" bg-lightgray rounded-lg basis-full h-full ">
     <div className=" text-white space-y-5 p-4 font-light text-sm leading-loose">
  {props.paragraphs.map((p)=><p key={p}>{p}</p>)}
     </div>

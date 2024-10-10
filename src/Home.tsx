@@ -30,18 +30,22 @@ const Home = () => {
             the Best Sustainable Barbecue Charcoal you will ever use!
           </h1>
         </div>
-        <div className="grid grid-cols-12 h-[600px] gap-6  px-4 md:px-20">
-          <div className="col-span-4  text-white flex flex-col p-4 space-y-5 font-light text-sm leading-loose  ">
+        <div className="grid grid-cols-12 w-full  h-[700px]  gap-6 max-xl:h-auto   px-4 md:px-20">
+          <div className="col-span-4 max-md:col-span-8  max-xl:col-span-6 justify-center items-center     text-white flex flex-col p-4 space-y-5 font-light text-sm leading-loose  ">
             <MainFeatureCard />
           </div>
-          <div className="col-span-4  flex flex-col space-y-5">
+          <div className="col-span-4 w-full  max-md:col-span-8 max-xl:col-span-6 flex flex-col space-y-5 ">
             <FeatureCard paragraphs={FeaturesParagraphs[2]}></FeatureCard>
             <FeatureCard paragraphs={FeaturesParagraphs[3]}></FeatureCard>
           </div>
 
-          <div className=" col-span-4  flex flex-col space-y-5">
-            <FeatureCard paragraphs={FeaturesParagraphs[4]}></FeatureCard>
-            <FeatureCard paragraphs={FeaturesParagraphs[5]}></FeatureCard>
+          <div className=" col-span-4 max-md:col-span-8  max-xl:col-span-12  max-xl:gap-6  max-md:flex-col max-xl:flex-row  max-xl:items-start max-xl:justify-start   flex flex-col max-xl:space-y-0 space-y-5">
+            <div className="max-lg:col-span-6 max-xl:w-1/2 max-md:col-span-12  max-md:w-full  max-xl:h-full basis-full  ">
+              <FeatureCard paragraphs={FeaturesParagraphs[4]}></FeatureCard>
+            </div>
+            <div className="max-lg:col-span-6 max-xl:w-1/2 max-md:col-span-12  max-md:w-full   max-xl:h-full basis-full  ">
+              <FeatureCard paragraphs={FeaturesParagraphs[5]}></FeatureCard>
+            </div>
           </div>
         </div>
       </section>
