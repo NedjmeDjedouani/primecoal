@@ -37,4 +37,35 @@ export const FeaturesParagraphs: { [key: number]: string[] } = {
   ],
 };
 
+export const NEWS = [
+  {
+    id: 1,
+    content: `we have announced that we have entered into a definitive agreement
+     to combine in an all-stock merger of equals to create Core Natural... Resource
+`,
+    date: "20.09.2024",
+  },
+  {
+    id: 2,
+    content: `our consultation process to assess shareholder views
+     regarding retaining or demerging its coal and carbon steel materials
+      business has returned a result in favour of retention
 
+`,
+    date: "30.09.2024",
+  },
+  {
+    id: 3,
+    content: `we have decided to build a long-distance overland conveyor for its Blue Creek Mine expansion in the city.
+
+`,
+    date: "20.09.2024",
+  },
+  {
+    id: 4,
+    content: `At MINExpo INTERNATIONAL®, the industry’s largest global mining event,
+     you will uncover new products and transformative technology that can help you increase productivity and safety.
+`,
+    date: "15.04.2024",
+  },
+];
