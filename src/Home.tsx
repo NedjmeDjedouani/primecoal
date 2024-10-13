@@ -13,40 +13,37 @@ const Home = () => {
         }}
       >
         <Header />
-        <div className="flex flex-col flex-grow justify-center items-center text-center mt-10">
-          <h1 className="text-white text-2xl mb-4 font-extrabold uppercase">
+        <div className="flex flex-col flex-grow justify-center items-center  mt-10">
+          <h1 className="text-white text-xl mx-20 text-center max-sm:text-xs max-sm:mx-0 mb-4 font-extrabold max-sm:font-bold uppercase">
             Our charcoal is characterized by high quality and natural
             composition,
-            <br /> which makes it an ideal choice <br /> for our users.
+             which makes it an ideal choice for <span className="text-orangy"> our users. </span>
+            
           </h1>
-          <button className="text-white bg-orangy px-8 py-2 rounded-lg uppercase font-bold hover:bg-orange-600">
+          <button className="text-white bg-orangy px-8 mt-4 py-2 rounded-lg uppercase font-bold hover:bg-orange-600">
             Contact Us
           </button>
         </div>
       </section>
       <section className="w-full mt-20   ">
         <div className="flex items-center justify-center col-span-12">
-          <h1 className="text-white uppercase font-bold text-center pb-[50px] ">
+          <h1 className="text-white max-sm:text-sm max-sm:font-medium     uppercase font-bold text-center pb-[50px] ">
             the Best Sustainable Barbecue Charcoal you will ever use!
           </h1>
         </div>
-        <div className="grid grid-cols-12 w-full  h-[700px]  gap-6 max-xl:h-auto   px-4 md:px-20">
-          <div className="col-span-4 max-md:col-span-8  max-xl:col-span-6 justify-center items-center     text-white flex flex-col p-4 space-y-5 font-light text-sm leading-loose  ">
+        <div className="grid grid-cols-12 w-full max-lg:grid-cols-2  max-md:grid-cols-1 h-[600px] gap-6 max-xl:h-auto px-4 md:px-20">
+          <div className="col-span-4 max-lg:col-span-1 max-md:w-1/2 max-sm:w-full  mx-auto   row-span-2 text-white flex flex-col font-light text-sm leading-loose">
             <MainFeatureCard />
           </div>
-          <div className="col-span-4 w-full  max-md:col-span-8 max-xl:col-span-6 flex flex-col space-y-5 ">
-            <FeatureCard paragraphs={FeaturesParagraphs[2]}></FeatureCard>
-            <FeatureCard paragraphs={FeaturesParagraphs[3]}></FeatureCard>
-          </div>
 
-          <div className=" col-span-4 max-md:col-span-8  max-xl:col-span-12  max-xl:gap-6  max-md:flex-col max-xl:flex-row  max-xl:items-start max-xl:justify-start   flex flex-col max-xl:space-y-0 space-y-5">
-            <div className="max-lg:col-span-6 max-xl:w-1/2 max-md:col-span-12  max-md:w-full  max-xl:h-full basis-full  ">
-              <FeatureCard paragraphs={FeaturesParagraphs[4]}></FeatureCard>
+          {[2, 3, 4, 5].map((index) => (
+            <div
+              key={index}
+              className="col-span-4 max-lg:col-span-1 max-md:w-1/2 mx-auto max-sm:w-full  "
+            >
+              <FeatureCard paragraphs={FeaturesParagraphs[index]} />
             </div>
-            <div className="max-lg:col-span-6 max-xl:w-1/2 max-md:col-span-12  max-md:w-full   max-xl:h-full basis-full  ">
-              <FeatureCard paragraphs={FeaturesParagraphs[5]}></FeatureCard>
-            </div>
-          </div>
+          ))}
         </div>
       </section>
       <img className=" mt-[151px]" src="imgg.png" alt="" />
