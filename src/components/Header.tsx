@@ -20,7 +20,7 @@ const Header = () => {
     
     </div>
 
-    <nav className=" flex items-center  col-start-3 col-end-12  text-white">
+    <nav className=" flex items-center max-sm:col-span-8  sm:col-start-3 sm:col-end-12  text-white">
       <Navbar  />
       <div className='w-full flex justify-end md:hidden' >
       <FontAwesomeIcon size='lg'   icon={faBars} color='white' onClick={()=>toggleSidebar()} />
