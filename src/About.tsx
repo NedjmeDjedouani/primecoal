@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className=" bg-black min-h-screen ">
       <div
-        className="bg-cover bg-no-repeat bg h-[500px]"
+        className="bg-cover bg-center bg-no-repeat bg h-[500px]"
         style={{
           backgroundImage: `url(imgp4.png)`,
         }}
@@ -18,7 +18,7 @@ const About = () => {
         </span>
       </div>
       <div className=" grid grid-cols-12 w-full gap-6 px-4 md:px-20   ">
-        <div className=" flex flex-col col-start-2 col-span-10 p-7 rounded-lg space-y-5">
+        <div className=" flex flex-col col-start-2 col-span-10 max-sm:col-span-12  max-sm:p-2 max-sm:text-sm p-7 rounded-lg space-y-5">
           <div className=" flex space-x-5  p-6 rounded-lg relative">
             <div className="flex  justify-center items-center">
               <p className="text-white  font-light text-base leading-loose 6">
@@ -38,7 +38,7 @@ const About = () => {
         </span>
       </div>
       <div className=" grid grid-cols-12 w-full gap-6 px-4 md:px-20   ">
-        <div className=" flex flex-col col-start-2 col-span-10 p-7 rounded-lg space-y-5">
+        <div className=" flex flex-col col-start-2 col-span-10  max-sm:col-span-12  max-sm:p-2 max-sm:text-sm p-7 rounded-lg space-y-5">
           <div className=" flex space-x-5  p-6 rounded-lg relative">
             <div className="flex  justify-center items-center">
               <p className="text-white  font-light text-base leading-loose 6">
@@ -59,7 +59,7 @@ const About = () => {
         </span>
       </div>
       <div className=" grid grid-cols-12 w-full gap-6 px-4 md:px-20   ">
-        <div className=" flex flex-col col-start-2 col-span-10 p-7 rounded-lg space-y-5">
+        <div className=" flex flex-col col-start-2 col-span-10 max-sm:col-span-12  max-sm:p-2 max-sm:text-sm p-7 rounded-lg space-y-5">
           <div className=" flex space-x-5  p-6 rounded-lg relative">
             <div className="flex  justify-center items-center">
               <p className="text-white  font-light text-base leading-loose 6">
