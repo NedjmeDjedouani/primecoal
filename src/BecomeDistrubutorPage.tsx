@@ -17,7 +17,7 @@ const BecomeDistrubutorPage = () => {
           <div className="flex col-span-3 max-sm:col-span-12 max-sm:justify-center items-center">
             <img className="h-[300px] object-cover " src="product.png" alt="" />
           </div>
-          <div className="text-white flex flex-col space-y-5 font-light max-sm:text-xs text-base leading-loose  col-span-6 max-sm:col-span-9">
+          <div className="text-white flex flex-col space-y-5 font-light max-sm:text-xs text-base leading-loose  col-span-6 max-sm:col-span-12">
             <p>
               Weight: 1 kg <br /> Number of cubes: 72 <br /> Size: 25x25x25{" "}
               <br />
