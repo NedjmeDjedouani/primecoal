@@ -14,7 +14,7 @@ const BecomeDistrubutorPage = () => {
       </div>
       <section>
         <div className=" grid grid-cols-12 w-full gap-6 px-4 md:px-20 mt-40  ">
-          <div className="flex col-span-3 max-sm:col-span-12 max-sm:justify-center items-center">
+          <div className="flex col-span-3 max-sm:col-span-12 max-sm:justify-center justify-end items-center">
             <img className="h-[300px] object-cover " src="product.png" alt="" />
           </div>
           <div className="text-white flex flex-col space-y-5 font-light max-sm:text-xs text-base leading-loose  col-span-6 max-sm:col-span-12">
