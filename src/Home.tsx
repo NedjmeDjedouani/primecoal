@@ -7,10 +7,8 @@ const Home = () => {
   return (
     <div className="bg-black flex flex-col">
       <section
-        className="min-h-screen flex flex-col bg-cover bg-no-repeat bg-center  "
-        style={{
-          backgroundImage: `url(background.png)`,
-        }}
+        className="min-h-screen flex flex-col bg-cover bg-no-repeat bg-center bg-backgroundImg  "
+    
       >
         <Header />
         <div className="flex flex-col flex-grow justify-center items-center  mt-10">
