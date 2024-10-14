@@ -29,7 +29,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
     }, [isOpen, onClose])
   return (
     <div ref={sidebarRef}
-      className={`fixed inset-y-0 left-0 z-50 w-64 bg-black shadow-lg transform transition-transform duration-300 ease-in-out ${
+      className={`fixed inset-y-0 left-0 z-50 w-64 bg-black     transform transition-transform duration-300 ease-in-out ${
         isOpen ? 'translate-x-0' : '-translate-x-full'
       }`}
     >
