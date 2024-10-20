@@ -1,23 +1,25 @@
+import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { SecondaryColor } from "../constants";
 
 export default function Navbar() {
   return (
     <ul className="flex  w-full justify-between  max-md:hidden ">
-      <li>
+      <motion.li whileHover={{ color: SecondaryColor }}>
         <Link to="/">Home</Link>
-      </li>
-      <li>
+      </motion.li>
+      <motion.li whileHover={{ color: SecondaryColor }}>
         <Link to="/news">News</Link>
-      </li>
-      <li>
+      </motion.li>
+      <motion.li whileHover={{ color: SecondaryColor }}>
         <Link to="/become-distributor">Become a distributor</Link>
-      </li>
-      <li>
+      </motion.li>
+      <motion.li whileHover={{ color: SecondaryColor }}>
         <Link to="mailto:primecoal@info.com">Contact Us</Link>
-      </li>
-      <li>
+      </motion.li>
+      <motion.li whileHover={{ color: SecondaryColor }}>
         <Link to="/about-us">About Us</Link>
-      </li>
+      </motion.li>
     </ul>
   );
 }

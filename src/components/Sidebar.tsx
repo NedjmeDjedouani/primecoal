@@ -1,6 +1,6 @@
 import { faClose } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import React, { useEffect, useRef } from 'react'
+import  { useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 
 interface SidebarProps {
@@ -8,25 +8,25 @@ interface SidebarProps {
   onClose: () => void
 }
 
-const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
-    const sidebarRef = useRef<HTMLDivElement>(null)
-
-    useEffect(() => {
-      const handleClickOutside = (event: MouseEvent) => {
-        if (sidebarRef.current && !sidebarRef.current.contains(event.target as Node)) {
-            console.log('clicked outside')
-          onClose()
+const Sidebar = ({ isOpen, onClose }:SidebarProps) => {
+  
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (sidebarRef.current && !sidebarRef.current.contains(event.target as Node)) {
+        console.log('clicked outside')
+        onClose()
         }
       }
-  
+      
       if (isOpen) {
         document.addEventListener('mousedown', handleClickOutside)
       }
-  
+      
       return () => {
         document.removeEventListener('mousedown', handleClickOutside)
       }
     }, [isOpen, onClose])
+  const sidebarRef = useRef<HTMLDivElement>(null)
   return (
     <div ref={sidebarRef}
       className={`fixed inset-y-0 left-0 z-50 w-64 bg-black     transform transition-transform duration-300 ease-in-out ${

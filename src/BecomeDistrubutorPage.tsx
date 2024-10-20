@@ -54,7 +54,7 @@ const BecomeDistrubutorPage = () => {
           </p>
 
           <div className="flex flex-col  col-span-8  space-y-5 max-sm:mt-5 max-sm:w-full max-sm:col-span-12">
-            <div className="gap-6 grid grid-cols-2  max-sm:flex-col max-sm:grid-cols-1  text-white outline-none w-10/12">
+            <div className="gap-6 grid grid-cols-2   max-sm:grid-cols-1  text-white outline-none w-10/12">
               <input
                 className="input-style"
                 name="email"

@@ -1,3 +1,5 @@
+export const SecondaryColor="#EA5D42"
+
 export const FeaturesParagraphs: { [key: number]: string[] } = {
   1: [
     "With years of experience in mining and energy production, our company offers industry-leading expertise in coal extraction and processing, ensuring safe and efficient operations.",
