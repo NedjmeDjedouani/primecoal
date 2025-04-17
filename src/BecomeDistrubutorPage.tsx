@@ -33,12 +33,12 @@ const BecomeDistrubutorPage = () => {
                 <span className="text-orangy font-bold ">45$</span>
               </div>
               <div className="   bg-lightgray flex flex-col justify-between rounded-lg px-7 py-2 text-center col-span-4 max-sm:w-1/2  mx-auto  max-sm:col-span-12">
-                <p className="  ">price up to 100kg</p>
-                <span className="text-orangy font-bold ">45$</span>
+                <p className="  ">price up to 1000kg</p>
+                <span className="text-orangy font-bold ">40$</span>
               </div>
               <div className="   bg-lightgray flex flex-col justify-between rounded-lg px-7 py-2 text-center col-span-4 max-sm:w-1/2  mx-auto  max-sm:col-span-12">
-                <p className="  ">price up to 100kg</p>
-                <span className="text-orangy font-bold ">45$</span>
+                <p className="  ">more than 1000kg</p>
+                <span className="text-orangy font-bold ">35$</span>
               </div>
             </div>
           </div>
